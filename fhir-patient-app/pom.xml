@@ -33,13 +33,13 @@
 			<version>${spring.boot.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.fhir</groupId>
-			<artifactId>fhir-hapi-autoconfigurer</artifactId>
-			<version>{project.version}</version>
+			<groupId>ca.uhn.hapi.fhir</groupId>
+			<artifactId>hapi-fhir-base</artifactId>
+			<version>${fhir.hapi.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>ca.uhn.hapi.fhir</groupId>
-			<artifactId>hapi-fhir-jaxrsserver-base</artifactId>
+			<artifactId>hapi-fhir-structures-dstu3</artifactId>
 			<version>${fhir.hapi.version}</version>
 		</dependency>
 		<dependency>
